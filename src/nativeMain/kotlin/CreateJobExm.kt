@@ -1,6 +1,6 @@
 import kotlinx.coroutines.*
 
-/*fun main() = runBlocking {
+fun main() = runBlocking {
     val job = launch (start = CoroutineStart.LAZY){
         delay(1000L)
         println("Start new job")
@@ -8,4 +8,4 @@ import kotlinx.coroutines.*
 
     job.start()
     println("Other task")
-}*/
+}
