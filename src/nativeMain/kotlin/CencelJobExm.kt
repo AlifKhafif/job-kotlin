@@ -1,4 +1,4 @@
-/*import kotlinx.coroutines.*
+import kotlinx.coroutines.*
 
 fun main() = runBlocking{
     val job = launch {
@@ -12,4 +12,4 @@ fun main() = runBlocking{
     if ( job.isCancelled){
         println("Job is cancelled")
     }
-}*/
+}
